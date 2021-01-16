@@ -1,40 +1,40 @@
 body {
-    margin: 0;
-    padding: 0;
-    overflow: overflow;
-    background-color: lightpink;
-    font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: overflow;
+  background-color: lightpink;
+  font-family: Helvetica, sans-serif;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(110px, 22vw));
-    grid-column-gap: 0;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(110px, 22vw));
+  grid-column-gap: 0px;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .grid-container {
-        grid-template-columns: repeat(4, minmax(100px, 15vw));
-    }
+  /* For desktop: */
+  .grid-container {
+    grid-template-columns: repeat(4, minmax(100px, 15vw));
   }
+}
 
 .alert {
-    height: 40px;
-    line-height: 10px;
-    margin-bottom: 10px;
+  height: 35px;
+  line-height: 10px;
+  margin-bottom: 10px;
 }
 
 .grid-container img {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 #container-box {
-    height: 30px;
+  height: 30px;
 }
 
 #alertMessage {
-    text-align: center;
+  text-align: center;
 }
