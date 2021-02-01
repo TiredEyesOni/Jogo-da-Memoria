@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+.head {
+  text-align: center;
+}
+
+#result{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 1.5em;
+}
+
+.button {
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(100px, 15vw));
+  grid-column-gap: 0px;
+  justify-content: center;
+}
+
+.grid-container img {
+  height: auto;
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+#leaderboard {
+  margin-top: 50px;
+}
+
+#leaderboard, ol, li {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 1.1em;
+}

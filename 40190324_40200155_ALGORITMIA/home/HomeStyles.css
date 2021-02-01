@@ -1,0 +1,27 @@
+body {
+    background-color: lightgreen;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+
+#container-box {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
